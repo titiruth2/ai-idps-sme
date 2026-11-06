@@ -11,10 +11,12 @@
 - Retrains in the background with a dual-model hot-swap, so detection never pauses.
 - Shows alerts, topology and response actions on a Flask dashboard.
 
-## Results on the VMware testbed
+## Results on the original VMware testbed
+
+These come from the dissertation experiments. The code in this repository is a rebuild and has not reproduced them.
 
 - Overall detection rate 83.2%, false positive rate 1.9%, F1 score 0.836.
-- Mean time to detection about 10 seconds across four attack scenarios (Nmap SYN scan, Hydra SSH brute force, Metasploit vsftpd exploit, plus one more).
+- Mean time to detection about 10 seconds across four attack scenarios (including Nmap SYN scan, Hydra SSH brute force and a Metasploit vsftpd exploit).
 - Average per-packet latency 8.266 ms (95th percentile 12.056 ms).
 
 ## Where I'd like AI assistance
