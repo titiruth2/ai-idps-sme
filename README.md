@@ -55,3 +55,7 @@ This repository is a clean **rebuild** of the system described in the dissertati
 Automated response runs in dry-run mode unless you pass `dry_run=False`, which executes `iptables` and needs root. Only run it on a lab network you own.
 
 Figure captions are in [docs/figures.md](docs/figures.md).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
